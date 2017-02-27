@@ -1,0 +1,26 @@
+{
+    "name": "blackho1e/adminlte-asset",
+    "description": "adminlte-asset for Yii2",
+    "keywords": ["yii2", "adminLTE"],
+    "homepage": "https://github.com/blackho1e/yii2-adminlte",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Minjoo Kang",
+            "email": "blackdole@naver.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "almasaeed2010/adminlte": "~2.0",
+        "blackho1e/yii2-fontawesome": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "blackho1e\\adminlte\\": ""
+        }
+    }
+}
